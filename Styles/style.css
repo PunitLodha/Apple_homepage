@@ -56,11 +56,6 @@ input[type="search"]{
     box-shadow: rgba(0, 0, 0, 0.6) 0 1px 1px inset, rgba(255, 255, 255, 0.2) 0 1px inset;
 }
 
-footer{
-    display: block;
-    border: 1px solid goldenrod;
-}
-
 .grid-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -104,6 +99,28 @@ main .explore{
     margin-top: 20px;
 }
 footer{
+    display: block;
     height: 90px;
     margin: 0px 185px;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 15px;
+    color: #6e6e6e;
+}
+
+footer a{
+    text-decoration: none;
+    color: #0088CC;
+}
+
+.footer-left{
+    float: left;
+    line-height: 2.5;
+    text-align: left;
+}
+.footer-right{
+    padding-top: 8px;
+}
+.footer-right li{
+    display: inline-block;
 }
